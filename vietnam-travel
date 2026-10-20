@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Khám phá thiên nhiên và văn hóa Việt Nam.">
+    <title>Khám phá Việt Nam - Trang chủ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Chuyển đến nội dung chính</a>
+
+    <header class="site-header">
+        <h1>Khám phá Việt Nam</h1>
+        <p>Hành trình khám phá vẻ đẹp quê hương</p>
+        <nav aria-label="Điều hướng chính">
+            <ul class="nav-list">
+                <li><a href="index.html" aria-current="page">Trang chủ</a></li>
+                <li><a href="destinations.html">Điểm đến</a></li>
+                <li><a href="gallery.html">Thư viện ảnh</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content" tabindex="-1">
+        <section class="intro">
+            <h2>Việt Nam trong mắt tôi</h2>
+            <p>Việt Nam có cảnh quan thiên nhiên phong phú, nền văn hóa đặc sắc và nhiều địa điểm đáng khám phá.</p>
+        </section>
+
+        <section class="feature-grid" aria-label="Điểm nổi bật">
+            <article class="card">
+                <img src="https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
+                     alt="Phong cảnh sông nước và núi đá"
+                     width="900" height="600">
+                <h3>Thiên nhiên</h3>
+                <p>Khám phá núi non, sông nước và những cảnh quan ấn tượng.</p>
+            </article>
+
+            <article class="card">
+                <img src="https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
+                     alt="Công trình kiến trúc trong khu phố"
+                     width="900" height="600" loading="lazy">
+                <h3>Văn hóa</h3>
+                <p>Tìm hiểu kiến trúc và những nét đẹp truyền thống.</p>
+            </article>
+        </section>
+
+        <section class="call-to-action">
+            <h2>Bắt đầu hành trình</h2>
+            <p>Khám phá những địa điểm du lịch nổi bật của Việt Nam.</p>
+            <a class="button-link" href="destinations.html">Khám phá điểm đến</a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Khám phá Việt Nam</p>
+    </footer>
+</body>
+</html>
